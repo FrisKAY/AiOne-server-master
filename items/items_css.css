@@ -1,0 +1,385 @@
+@font-face{
+	font-family: Minecraft;
+	src: url("minecraft.woff") format("woff");
+}
+/* 布局 */
+html{
+	font-family: "Microsoft Yahei", Tahoma;
+}
+body{
+	margin: 0;
+}
+nav{
+	position: fixed;
+	height: 100%;
+	width: 12%;
+	top: 0; left: 0;
+}
+div#main_part{
+	width: 88%;
+	float: right;
+}
+article{
+	margin: 2em 3em;
+}
+p.indent{
+	text-indent: 2em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Tahoma, "Microsoft Yahei", Simsun;
+}
+h1{
+	text-align: center;
+	font-size: 200%;
+	padding: 1em 0 0.3em;
+}
+h2{
+	border-bottom: solid 2px grey;
+	padding: 30px 0 5px;
+}
+h3{
+	font-size: 120%;
+}
+h4{
+	font-size: 110%;
+	display: inline;
+}
+code{
+	color: black;
+	font-weight: normal;
+	font-size: 100%;
+	background-color: #fff;
+	font-family: "Courier New", 楷体;
+}
+footer{
+	margin: 10px auto 5px;
+}
+footer p{
+	text-align: center;
+	font-size: 85%;
+}
+footer img{
+	height: 30px;
+}
+/* 颜色 */
+body{
+	background-color: #eee;
+}
+article a{
+	color: hsl(220, 50%, 50%);
+}
+nav, nav ul ul li{
+	background: #8B8B8B;
+}
+nav li:hover{
+	background-color: #000;
+}
+a:hover{
+	color: #d25349;
+	text-decoration: underline;
+}
+h1, h2, h3, strong{
+	color: blue;
+}
+/* 导航 */
+nav{
+	font-size: 100%;
+	font-weight: bold;
+	z-index: 10;
+}
+nav a, nav a:hover{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+nav ul{
+	margin: 0; 
+	padding: 0;
+	height: 2em;
+	list-style-type: none;
+}
+nav a{
+	display: block;
+	height: 100%; width: 100%;
+	padding: 6px 2px 6px 16px;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul{
+	width: 100%;
+	margin-left: 100%;
+	margin-top: -2.04em;
+	padding: 0;
+	top: auto;
+	float: left;
+	display: none;
+	position: absolute;
+	z-index: 9;
+}
+nav ul ul:nth-child(3){
+	margin-left: 200%;
+}
+nav ul ul:nth-child(4){
+	margin-left: 300%;
+}
+nav ul ul:nth-child(5){
+	margin-left: 400%;
+}
+nav ul ul:nth-child(6){
+	margin-left: 500%;
+}
+nav ul ul:nth-child(7){
+	margin-left: 600%;
+}
+nav ul li.up1 ul{
+	margin-top: -4.08em;
+}
+nav ul li.up2 ul{
+	margin-top: -6.12em;
+}
+nav ul li.up3 ul{
+	margin-top: -8.16em;
+}
+nav ul li.up4 ul{
+	margin-top: -10.2em;
+}
+nav ul li.up5 ul{
+	margin-top: -12.24em;
+}
+nav ul li.up6 ul{
+	margin-top: -14.28em;
+}
+nav ul li.up7 ul{
+	margin-top: -16.32em;
+}
+nav ul li.up8 ul{
+	margin-top: -18.36em;
+}
+nav ul li.up9 ul{
+	margin-top: -20.4em;
+}
+/* 图片 */
+figure{
+	text-align: left;
+	text-indent: 0;
+	margin-left: 0;
+}
+figcaption, p.note{
+	font-family: Arial, 楷体, monospace, Courier;
+}
+figure img{
+	border: rgb(219, 156, 30) 2px solid;
+	border-color: hsl(40,40%,20%);
+}
+/* 表格 */
+table{
+	margin: 20px 0;
+	background-color: #fff;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid #aaa;
+	padding: 0.2em 0.4em;
+	vertical-align: middle;
+}
+thead th{
+	background: #505050;
+	font-weight: bold;
+	color: #fff;
+}
+tbody th{
+	background-color: #ddd;
+}
+table.aiom_table tbody td:first-child, table.aiom_table tbody td:nth-child(3), table.onlyicons{
+	background-color: #8b8b8b;
+}
+table.onlyicons td{
+	font-size: 32px;
+}
+table.adv td{
+	height: 52px;
+	width: 52px;
+	font-size: 90%;
+}
+table.adv .normal{
+	background-image: url("gui/normal.png");
+}
+table.adv .goal{
+	background-image: url("gui/goal.png");
+}
+table.adv .challenge{
+	background-image: url("gui/challenge.png");
+}
+table.adv span{
+	width: 52px; height: 52px;
+}
+table.adv span.ui a{
+	left: 10px; top: 10px;
+}
+table.block_breaker{
+	margin: 20px 0px;
+	background-color: #999;
+	border-collapse: collapse;
+}
+table.block_breaker td,table.block_breaker th{
+	border: 1px solid #fff;
+}
+table.characters a{
+	display: inline-block;
+	width: 128px; height: 256px;
+	background-size: 128px 256px;
+}
+table.support img{
+	height: 60px;
+}
+/* 图标 */
+span.ui{
+	display: inline-block;
+	position: relative;
+}
+span.ui a{
+	position: absolute;
+}
+a.ui{
+	position: relative;
+}
+span.ui a, a.ui{
+	display: inline-block;
+	background-size: 32px 32px;
+	width: 32px; height: 32px;
+	image-rendering: -moz-crisp-edges; /* Firefox */
+	image-rendering: -o-crisp-edges; /* Opera */      
+	image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ 
+	image-rendering: crisp-edges; 
+	-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+	color: #fff;
+	text-shadow: 2px 2px 0 #3f3f3f;
+	filter: DropShadow (color="#3f3f3f",offx="2",offy="2");
+	-webkit-filter: DropShadow (color="#3f3f3f",offx="2",offy="2");
+}
+a.size16, .size16 a, nav span{
+	display: inline-block;
+	background-size: 16px 16px;
+	width: 16px; height: 16px;
+}
+a.size18{
+	display: inline-block;
+	background-size: 18px 18px;
+	width: 18px; height: 18px;
+}
+.shapeless{
+	position: absolute;
+	top: 16px; right: 16px;
+	display: block;
+	width: 19px; height: 15px;
+	background-image: url("shapeless.png");
+}
+.stack{
+	position: absolute;
+	font-family: Minecraft, sans-serif !important;
+	right: 0;
+	bottom: 0;
+}
+/* 合成器 */
+.cm{
+	height: 136px; width: 260px;
+	background-image: url("gui/cm.png");
+}
+span.cm > a:nth-child(1){top: 16px; left: 16px;}
+span.cm > a:nth-child(2){top: 16px; left: 52px;}
+span.cm > a:nth-child(3){top: 16px; left: 88px;}
+span.cm > a:nth-child(4){top: 52px; left: 16px;}
+span.cm > a:nth-child(5){top: 52px; left: 52px;}
+span.cm > a:nth-child(6){top: 52px; left: 88px;}
+span.cm > a:nth-child(7){top: 88px; left: 16px;}
+span.cm > a:nth-child(8){top: 88px; left: 52px;}
+span.cm > a:nth-child(9){top: 88px; left: 88px;}
+span.cm > a:nth-child(10){top: 52px; left: 204px;}
+/* 工作台 */
+.ct{
+	height: 136px; width: 260px;
+	background-image: url("gui/ct.png");
+}
+/* 发射器 */
+span.dp{
+	height: 136px; width: 136px;
+	background-image: url("gui/dp.png");
+}
+span.dp > a:nth-child(1){top: 16px; left: 16px;}
+span.dp > a:nth-child(2){top: 16px; left: 52px;}
+span.dp > a:nth-child(3){top: 16px; left: 88px;}
+span.dp > a:nth-child(4){top: 52px; left: 16px;}
+span.dp > a:nth-child(5){top: 52px; left: 52px;}
+span.dp > a:nth-child(6){top: 52px; left: 88px;}
+span.dp > a:nth-child(7){top: 88px; left: 16px;}
+span.dp > a:nth-child(8){top: 88px; left: 52px;}
+span.dp > a:nth-child(9){top: 88px; left: 88px;}
+/* 熔炉 */
+span.fur{
+	height: 136px; width: 192px;
+	background-image: url("gui/fur.png");
+}
+span.fur > a:nth-child(1){top: 16px; left: 16px;}
+span.fur > a:nth-child(2){top: 88px; left: 16px;}
+span.fur > a:nth-child(3){top: 52px; left: 136px;}
+/* 多功能一体机 */
+span.aiom{
+	width: 352px; height: 182px;
+	background-image: url("gui/aiom.png");
+}
+span.aiom a:nth-child(1){top: 36px; left: 52px;}
+span.aiom a:nth-child(2){top: 72px; left: 52px;}
+span.aiom a:nth-child(3){top: 36px; left: 124px;}
+span.aiom a:nth-child(4){top: 36px; left: 160px;}
+span.aiom a:nth-child(5){top: 108px; left: 124px;}
+span.aiom a:nth-child(6){top: 108px; left: 160px;}
+span.aiom a:nth-child(7){top: 104px; left: 304px;}
+/* 版本提示 */
+span.version, span.oldversion{
+	display: inline-block;
+	height: 20px;
+	font-size: 70%;
+	border-radius: 5px;
+	padding: 2px 5px 0px;
+	text-shadow: 1px 1px 1px #000;
+	color: gold;
+	text-indent: 0;
+}
+span.version{
+	background-color: #4c1;
+}
+span.oldversion{
+	background-color: #666;
+}
+span.version:before, span.oldversion:before{ 
+	content: "版本 ";
+	color: #ccccff;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+abbr{
+	cursor: help;
+}
+em{
+	font-style: italic;
+}
+.center{
+	text-align: center;
+}
+.center img{
+	height: 210px;
+}
+.lore{
+	color: purple;
+}
+.left{
+	text-align: left;
+}
+
+/* minecraft block */
+.block_ruby                          {background-image: url(items/block_ruby.png);}
+.ruby                          {background-image: url(items/ruby.png);}
+
