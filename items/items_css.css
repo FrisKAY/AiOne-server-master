@@ -380,6 +380,6 @@ em{
 }
 
 /* minecraft block */
-.block_ruby                          {background-image: url(items/block_ruby.png);}
+.block_ruby                    {background-image: url(items/block_ruby.png);}
 .ruby                          {background-image: url(items/ruby.png);}
 
