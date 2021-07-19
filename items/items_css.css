@@ -381,5 +381,28 @@ em{
 
 /* minecraft block */
 .ruby_block                    {background-image: url(items/ruby_block.png);}
+.amethyst_block                {background-image: url(items/amethyst_block.png);}
+.amethyst_ore                  {background-image: url(items/amethyst_ore.png);}
+.amethyst_prism_block          {background-image: url(items/amethyst_prism_block.png);}
+.aqua_aura_block          {background-image: url(items/aqua_aura_block.png);}
+.aqua_aura_ore          {background-image: url(items/aqua_aura_ore.png);}
+.blaze_powder_ore          {background-image: url(items/blaze_powder_ore.png);}
+.bronze_ore          {background-image: url(items/bronze_ore.png);}
+.coal_dirt_ore          {background-image: url(items/coal_dirt_ore.png);}
+.crying_obsidian          {background-image: url(items/crying_obsidian.png);}
+.crystal_block          {background-image: url(items/crystal_block.png);}
+.end_ore          {background-image: url(items/end_ore.png);}
+.gold_dirt_ore          {background-image: url(items/gold_dirt_ore.png);}
+.iron_dirt_ore          {background-image: url(items/iron_dirt_ore.png);}
+.modern_quartz          {background-image: url(items/modern_quartz.png);}
+.modern_sandstone          {background-image: url(items/modern_sandstone.png);}
+.modern_stone          {background-image: url(items/modern_stone.png);}
+.nice_stone          {background-image: url(items/nice_stone.png);}
+.nice_wood          {background-image: url(items/nice_wood.png);}
+.ruby_ore          {background-image: url(items/ruby_ore.png);}
+.spinel_block          {background-image: url(items/spinel_block.png);}
+.spinel_ore          {background-image: url(items/spinel_ore.png);}
+.turquoise_block          {background-image: url(items/turquoise_block.png);}
+.turquoise_ore          {background-image: url(items/turquoise_ore.png);}
 .ruby                          {background-image: url(items/ruby.png);}
 
